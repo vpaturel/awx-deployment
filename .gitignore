@@ -1,0 +1,26 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# SSL Certs
+nginx/certs/
+nginx/ssl/
+
+# Backups
+backups/
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
